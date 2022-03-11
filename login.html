@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--FONTE DO GOOGLE-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <!--FONTE DO GOOGLE-->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="plugins/bootstrap/css/bootstrap.min.css">
+    <title>Healh Track</title>
+</head>
+
+<body>
+    <!----------------- !!!TELA DE SPLASH!!! ---------------------------->
+    <div class="splash">
+        <img src="images/splash-icon.svg" class="fadeIn" alt="Logo" />
+    </div>
+    <!----------------- !!!TELA DE SPLASH!!! ---------------------------->
+
+
+
+    <div class="tela-login">
+        <div class="login-form">
+            <div class="login-form-wrapper">
+                
+                <div class="titulo">
+                    <img class="login-icon" src="images/normal-icon.svg" alt="smallLogo">
+                    <h1 class="log">LOGIN</h1>
+                </div>
+
+                <form action="/html/dashboard.html">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp"placeholder="Digite seu E-mail">
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="senha" class="form-label">Senha:</label>
+                        <input type="password" class="form-control" id="senha" placeholder="Senha">
+                    </div>
+
+                    <div class="botao">
+                        <button type="submit" class="btnLogin">Entrar</button>
+                    </div>
+
+
+                </form>
+                <div class="ou-separar">
+                    <i>OU</i>
+                </div>
+
+                <div class="social-media">
+                    <a href="#">
+                        <div class="google">
+                            <img src="images/google.svg" alt="">
+                        </div>
+                    </a>
+
+                    <a href="#">
+                        <div class="facebook">
+                            <img src="images/facebook.svg" alt="">
+                        </div>
+                    </a>
+                </div>
+
+                <h5 class="registrar"><a class="link-cadastro" href="html/cadastro.html">Não tem conta? Cadastre-se</a></h4>
+            </div>
+        </div>
+
+
+    </div>
+    
+    <script src="js/splash.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

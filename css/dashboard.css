@@ -1,0 +1,123 @@
+.sidebar{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(to top, #0e82c8, #0e96d3, #28aadb, #44bde3, #62d0e9);
+}
+small a{
+    color: white;
+}
+.sidebar-menu{
+    margin-top: 20px;
+}
+
+.sidebar .sidebar-menu ul li a{
+    text-decoration: none;
+}
+.ht-sidebar{
+    padding: 5px 0px 5px 10px;
+    color: white;
+}
+.ht-sidebar h2 span{
+    color: white;
+
+}
+.sidebar-menu li{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1.3rem;
+}
+.sidebar-menu a{
+    display: block;
+    font-size: 1.2rem;
+}
+.sidebar-menu .select{
+    background-color: #fff;
+    color: #33A7D8;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding: 9px;
+    border-radius: 30px 0px 0px 30px;
+}
+.sidebar-menu a span:first-child{
+    font-size: 1.5rem;
+    padding-right: 1rem;
+}
+ul li{
+    list-style-type: none;
+}
+
+h2 span{
+    color: black;
+}
+header{
+    background-color: #0e82c8;
+    display:flex;
+    justify-content: space-between;
+    padding: 1rem;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: calc(100% - 300px);
+}
+.searchbar{
+    border: 1px solid black;
+    border-radius: 30px;
+    height: 45px;
+    display: flex;
+    align-items: center; 
+    overflow-x: hidden;
+}
+.searchbar span{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    background-color: white;
+    padding: 0rem 1rem;
+}
+
+.searchbar input{
+    height: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+}
+.usuario img{
+    background-color: white;
+    border-radius: 40px;
+    padding: 7px;
+    
+}
+
+.tela-principal{
+    background-color: rgb(255, 255, 255);
+    margin-left: 300px;
+}
+main{
+    padding-top: 100px;
+    height: 100%;
+}
+.cards{
+    margin-left: 130px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.small-cards{
+    font-size: large;
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    background-color: rgb(245, 241, 241);
+    padding: 10px;
+    height: 300px;
+}
+.small-cards ul li{
+    list-style-type: disc;
+}
